@@ -33,6 +33,10 @@ The study combines semantic review representations, similarity graphs, graph-der
 - Primary classifier: XGBoost.
 - Eight imbalance conditions are evaluated: None, Class Weight, Random Oversampling, SMOTE, Borderline-SMOTE, SVM-SMOTE, KMeans-SMOTE, and ADASYN.
 - SHAP is used for model explanation.
+- An NLP-only baseline uses the 384-dimensional MiniLM embeddings without graph-derived features.
+- The Graph+NLP configuration combines semantic representations, graph-derived structural features, and review-level features.
+- An NLP-only baseline uses the 384-dimensional MiniLM embeddings without graph-derived features.
+- The Graph+NLP configuration combines semantic representations, graph-derived structural features, and review-level features.
 - The Ott et al. 1,600-review benchmark is evaluated separately using MiniLM representations.
 - A separate external hotel-review collection is used only for cross-domain behaviour analysis because verified labels are unavailable.
 
@@ -136,7 +140,7 @@ The external hotel-review collection is not included. After preparing the retain
 ```bash
 python -m suspicious_reviews.phase4_external_case_studies \
     --input data/processed/reviews_cleaned.csv \
-    --source data/processed/booking_reviews_traindataset_output.csv \
+    --source data/processed/booking_reviews_traindataset.csv \
     --embeddings models/review_embeddings_minilm.npy
 ```
 
