@@ -1,0 +1,6 @@
+fold,train_reviews,validation_reviews,train_suspicious,validation_suspicious,training_graph_nodes,training_graph_edges,validation_to_training_edges,validation_to_validation_edges,pagerank_training_cutoff,similarity_threshold
+1,1608,403,126,29,1608,356,168,0,0.0021990592643711133,0.8
+2,1609,402,120,29,1609,354,172,0,0.0022612974712976535,0.8
+3,1609,402,119,28,1609,336,184,0,0.002219075972491201,0.8
+4,1609,402,123,30,1609,336,179,0,0.002223857315013894,0.8
+5,1609,402,126,30,1609,344,181,0,0.0021912894130321475,0.8

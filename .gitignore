@@ -1,0 +1,34 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.DS_Store
+Thumbs.db
+
+# Raw / restricted datasets
+data/raw/
+data/processed/
+data/ott/
+
+# Generated model artifacts
+models/
+*.joblib
+*.pkl
+*.npy
+*.npz
+
+# Generated graph files
+graphs/
+*.graphml
+
+# Generated result files containing review-level records
+results/external_validation/
+results/phase4_external_case_studies/
+results/phase4_external_case_studies_v2/
+results/ml_predictions.csv
+results/reviews_with_graph_features.csv
+
+# Local IDE files
+.vscode/
+.idea/

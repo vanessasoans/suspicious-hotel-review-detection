@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+title: "Suspicious Hotel Review Detection Using Leakage-Controlled Semantic Graphs and Explainable Machine Learning"
+message: "If you use this repository, please cite the associated manuscript."
+authors:
+  - family-names: "Soans"
+    given-names: "Vanessa Sharon"
+  - family-names: "Shetty"
+    given-names: "Sucharitha"
+  - family-names: "Aithal"
+    given-names: "Prakash K."
