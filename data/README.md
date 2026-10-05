@@ -44,7 +44,7 @@ Booking.com dataset.
 
 ## 3. External hotel-review collection
 
-- **File used in the study:** `reviews_cleaned(4).csv`
+- **File used in the study:** `reviews_cleaned.csv`
 - **Original reviews:** 5,823
 - **Reviews retained after preprocessing:** 4,842
 - **Source:** External hotel-review collection
